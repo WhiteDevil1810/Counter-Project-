@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+.display {
+    flex: row;
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    margin: auto;
+    padding: auto;
+    margin-top: 20px;
+}
+
+.box {
+    height: 150px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: rgb(152, 30, 152);
+    align-items: center;
+    text-align: center;
+    font-size: 127px;
+    font-family: 'Inter';
+    box-shadow: inset 0px 0px 39px 13px rgba(0, 0, 0, 0.25);
+    color: white;
+
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 115px;
+    text-align: center;
+    color: white;
+    font-family: 'Iceland';
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+
+
+
+.control {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.increment {
+    margin-left: 12px;
+    padding-left: 0px;
+    margin-top: 60px;
+    justify-content: center;
+    display: inline-block;
+    padding: 13px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(185, 41, 185);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px dark purple;
+    font-family: 'Iceland';
+
+}
+
+.increment:hover {
+    background-color: #3e8e41
+}
+
+.increment:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.decerement {
+    margin-left: 237px;
+    padding-left: 0px;
+    margin-top: -53px;
+    justify-content: center;
+    display: flex;
+    padding: 13px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(185, 41, 185);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px dark purple;
+    font-family: 'Iceland';
+
+}
+
+.decerement:hover {
+    background-color: #3e8e41
+}
+
+.decerement:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.restart {
+    background-color: rgb(185, 41, 185);
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 9px;
+    margin-top: 2px;
+    font-weight: bolder;
+    border-radius: 5px solid white;
+    color: white;
+
+}
+
+.restart:hover {
+    background-color: #3e8e41;
+
+}
